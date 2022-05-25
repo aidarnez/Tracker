@@ -13,7 +13,6 @@ X = 1
 print(Error)
 for i in range(X):
     try:
-        #print(Error)
         cursor.execute(f'CREATE SCHEMA shema{X}')
         cursor.execute(f'CREATE TABLE shema{X}.table{X}\
                     (\
